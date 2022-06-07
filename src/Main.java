@@ -1,5 +1,6 @@
 import Funcionario.Consultor;
 import Funcionario.Vendedor;
+import JogoCraps.craps;
 import Macaco.Macaco;
 import numeroReverso.NumeroReverso;
 
@@ -48,6 +49,9 @@ public class Main {
 		
 		System.out.println("O salário da "+ vendedora.getNome() +" é: " + vendedora.calcularSalario());
 		System.out.println("O salário da "+ consultora.getNome() +" é: " + consultora.calcularSalario());
+		
+		//Jogo de Craps
+		craps.rolarDados();
 	}
 
 }
